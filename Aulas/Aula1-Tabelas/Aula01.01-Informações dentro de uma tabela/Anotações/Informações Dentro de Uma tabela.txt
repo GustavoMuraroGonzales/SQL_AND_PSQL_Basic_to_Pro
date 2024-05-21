@@ -1,0 +1,7 @@
+Aula 01 Introdução a TABELAS ( 01 - Informações de Uma tabela) 
+
+As tabelas são constituidas por colunas(column) que é a mesma coisa de Atributo(attribute).
+Que no exemplo do anexo 1 estão destacados com a cor azul.
+
+ 
+
