@@ -1,0 +1,6 @@
+Aula 01 Introdução a SQL( 04 - Ordenando com o ORDER BY) 
+
+Conseguimos escolher qual coluna queremos ordernar a tabela em order decrescente no caso de A-Z.
+Utilizamos o código:
+		ORDER BY last_name;
+Como exemplo temos em nossa pasta de script.

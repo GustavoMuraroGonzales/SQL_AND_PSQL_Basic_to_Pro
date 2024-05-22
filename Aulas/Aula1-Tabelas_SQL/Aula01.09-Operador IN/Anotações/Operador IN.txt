@@ -1,0 +1,10 @@
+Aula 01 Introdução a SQL( 09 - Operador IN) 
+
+Utilizamos para listar vários elementos sem precisar ficar utilizando o WHERE e o OR.
+Como o exemplo abaixo:
+
+		SELECT * FROM address
+		WHERE district IN ('alberta', 'texas', 'california')
+
+Somente com um operador eu consegui filtrar todos os endereços dos seguintes 
+distritos alberta, texas e california.

@@ -1,0 +1,16 @@
+Aula 01 Introdução a SQL( 07- Mais variações do Where)
+
+Com o Where nós podemos fazer muitos filtros diferente como mesmo selecionar os itens que eu não quero que apareça
+como por exemplo usando nossa tabela de endereços, não quero que apareça o distrito do texas eu posso então passar 
+o seguinte código:
+		SELECT * FROM adrress
+		WHERE district != 'texas'
+		
+Tendo como resultado filtrando o conteúdo tirando os endereços que estão no distrito do texas.
+
+Posso tambem usar para excluir o clientes que pagam produtos mais baratos como os de 0.99 em nossa lista de pagamentos.
+Usamos o seguinte código.
+		SELECT * FROM payment
+		
+		WHERE amount != 0.99
+Tendo como o resultado de excluindo os 0.99 de nossa lista.

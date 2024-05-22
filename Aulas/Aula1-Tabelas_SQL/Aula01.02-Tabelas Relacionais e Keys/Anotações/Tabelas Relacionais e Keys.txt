@@ -1,0 +1,19 @@
+Aula 01 Introdução a SQL( 02 - Tabelas Relacionais e Keys) 
+
+No exemplo que usamos nós estamos vendo a tabela de funcionários de nossa locadora, onde podemos analisar algumas
+coisas nessa tabela, sendo elas a primeira coluna(Staff_id) onde mostra a posição de cada funcionário, localizamos 
+em nosso exemplo pela cor verde.
+Tambem podemos analisar uma coluna relacionada que é a address_id onde somente encontramos um número, número esse 
+relacionado a outra tabela onde podemos encontrar os resultados de endereço no exemplo do anexo 1 está sendo
+localizado pela cor Azul, esse método é chamado de foreign key(chave relacionada/estrangeira). Essa chave relacionada
+está conectada com os nossos tabela de dados de endereços que são encontradas no anexo 2 sendo assim os funcionários 
+cujo o endereço estava somente com o número 3 agora está completo, em azul nós temos os dados do segundo funcionário
+que tinha como address_id o número 4 e em amarelo nós temos o primeiro funcionário que tinha como address_id o número 3.
+
+No anexo 3 nós podemos encontrar os dois prints dessas tabelas do nosso bancoi de dados e podemos assim conectá-las para
+melhor compreendermos as foreign keys
+
+Usamos a foreign keys para reduzir o nosso tamanho do banco de dados, pois se já temos um conteúdo desse tipo por que eu preciso
+adicioná-lo de novo se eu posso somente referenciá-lo usando uma foreign Key usando menos armazenamento.
+
+
