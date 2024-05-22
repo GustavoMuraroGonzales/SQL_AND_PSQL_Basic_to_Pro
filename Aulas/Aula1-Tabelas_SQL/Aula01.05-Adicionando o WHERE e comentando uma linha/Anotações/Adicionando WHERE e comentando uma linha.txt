@@ -1,0 +1,9 @@
+Aula 01 Introdução a SQL( 05 - Adicionando o WHERE e comentando uma linha) 
+
+Se eu colocar o WHERE eu consigo puxar qualquer linha que contem a informação que eu passei.
+		WHERE actor_id = 100
+A minha lista irá me mostrar a linha do actor_id 100.
+
+Tambem podemos usar o seguinte código 
+		WHERE actor_id <10 
+Que irá mostar os 9 primeiros de nossa lista. 

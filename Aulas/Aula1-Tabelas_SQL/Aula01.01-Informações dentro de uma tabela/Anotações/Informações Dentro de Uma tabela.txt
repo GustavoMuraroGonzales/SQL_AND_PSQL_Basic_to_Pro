@@ -1,0 +1,10 @@
+Aula 01 Introdução a SQL( 01 - Informações de Uma tabela) 
+
+As tabelas são constituidas por colunas(column) que é a mesma coisa de Atributo(attribute), nós localizamos ela pelos headers.
+Tambem em tabelas nós temos as Linhas(row) que podem ser encontradas em algumas literaturas como Tuple elas estão localizadas em vermelho no nosso anexo de exemplo
+Que no exemplo do anexo 1 estão destacados com a cor azul e em vermelho localizamos as linhas que tambem podem ser encontradas por estarem enumeradas de 1 a 8.
+Tambem nas tabelas nos temos as keys como exemplo temos a Primary Key que é a coluna do Adress ID, localizadas em verde no nosso anexo.
+Tambem temos os Data Value que são os conteudos de nossa tabela que estão em uma key, uma linha e uma coluna, como exemplo nós temos em amarelo
+
+ 
+

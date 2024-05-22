@@ -1,0 +1,19 @@
+USE sakila;
+
+SELECT * FROM  actor
+WHERE first_name LIKE 'A%'
+
+/* Nesse exemplo acima ele filtrou a nossa tabela mostrando somente os atores que
+iniciando com a letra A, mas para que isso funcione nós precisamos adicionar o sinal
+de porcentagem(%) que significa "qualquer coisa depois do conteudo escolhido" sem o 
+sinal de porcentagem ele não vai funcionar */
+
+/* No operador like nós escolhemos a letra e o tamanho que no nosso exemplo foi a 
+letra (A) e o tamanho (%) qualquer um */ 
+
+/* Nós tambem podemos fazer ao contrário do exemplo acima, escolhendo a letra com
+que o nome acaba, como mostra o exemplo abaixo onde pedimos para enconrtrar uma 
+pessoa cuja ultima letra do primeiro nome seja F */
+
+SELECT * FROM actor 
+WHERE first_name LIKE '%f'
