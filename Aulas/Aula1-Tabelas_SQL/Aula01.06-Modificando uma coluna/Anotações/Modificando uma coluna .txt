@@ -1,0 +1,15 @@
+Aula 01 Introdução a SQL( 06 - Modificando uma coluna) 
+
+Nós podemos utilizar o meio de modificação de colunas para criar (promoções) no caso que iremos demonstrar nós colocamos que
+na próxima compra do cliente 1 ele irá receber um desconto de 10% nesse caso nós conseguimos mostrar em nossa tabela em 
+uma nova coluna o resultado dessa promoção já habilitada.
+Usamos o seguinte código:
+	SELECT Customer_id, amount, amount - (amount * 0.10)
+Esse código faz com que se crie uma nova coluna onde o resultado será o o valor da uma compra com desconto de 10%.
+Porem com esse conteudo acima o Header de nossa coluna ficaria assim: "amount - (amount * 0.10)" mas podemos alterar isso 
+utilizando AS e o tituloi que queremos usar ficando da seguinte forma:
+	SELECT  customer_id, amount, amount - (amount * 0.10) AS '10% discount'
+"10% discount" é o nosso header dessa coluna criada. 
+
+Esses dados do discount não foram inseridos em nosso banco de dados pela nossa tabela, são somente possiveis visualizados
+por conta de nosso SELECT.

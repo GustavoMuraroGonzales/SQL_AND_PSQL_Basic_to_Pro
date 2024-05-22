@@ -1,0 +1,15 @@
+Aula 01 Introdução a SQL( 03 - Utilizando o  USE e SELECT) 
+
+O USE serve para acessarmos um banco de dados, como por exemplo em nosso Workbench nós temos trê bancos de dados sendo eles
+o sakila, sys e o world. Nós utilizamos o USE para acessar um desses bancos de dados como por exemplo:
+		USE sakila; 
+A partir desse momento qualquer código que executarmos ele sera realizado dentro do banco de dados do sakila.
+
+O SELECT nós podemos selecionar uma coluna que queremos visualizar, fazemos isso da seguinte maneira 
+
+		SELECT actor_id, firts_name FROM actor;
+		
+Nesse código acima nós iremos acessar o banco de dados actor que é indicado pelo FROM acessando somente as colunas actor_id e
+first_name utilizando o SELECT.
+
+		SELECT [Coluna] FROM [Tabela];

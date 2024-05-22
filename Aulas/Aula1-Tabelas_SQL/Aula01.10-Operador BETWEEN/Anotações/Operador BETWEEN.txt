@@ -1,0 +1,11 @@
+Aula 01 Introdução a SQL( 10 - Operador BETWEEN)
+
+BETWEEN = Entre um valor e outro.
+
+-----------------------------------------------
+
+		SELECT * FROM payment 
+		WHERE amount BETWEEN 1.99 AND 3.99
+
+Nesse exemplo nos filtramos o amount de 1.99 á 3.99
+
