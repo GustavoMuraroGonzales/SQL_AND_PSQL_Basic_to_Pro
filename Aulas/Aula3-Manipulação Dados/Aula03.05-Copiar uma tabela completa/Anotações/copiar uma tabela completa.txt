@@ -1,0 +1,10 @@
+Aula 03 - Manipulação de Dados ( 05 - Copiar uma tabela completa)
+
+Utilizamos um código simples para copiarmos uma tabela:
+
+		USE sakila;
+
+		CREATE TABLE payment_backup AS 
+		SELECT * FROM payment
+		
+Nesse caso nós criamos um tabela chamada payment_backup copiando todas as column e rows da tabela payment.

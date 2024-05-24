@@ -1,0 +1,17 @@
+Aula 03 - Manipulação de Dados ( 02 - Inserindo uma linha a tabela ) 
+
+Nós conseguimos adicionar uma linha a nossa tabela por meio de nossa query, utilizamos o seguinte código:
+
+		USE sakila;
+
+		INSERT INTO language 
+		VALUES (default, 'Portuguese', '2008-06-15 05:02:19')
+		
+
+
+Na parte Insert Into language nós selecionamos a nossa tabela
+
+Depois especifica os campos em ordem nesse caso :
+O default seria para manter o padrão e ser o próximo o número 7.
+O 'Portuguese' é o nome.
+E por fim a data de atualização.

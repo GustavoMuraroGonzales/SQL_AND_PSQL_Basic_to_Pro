@@ -1,0 +1,7 @@
+Aula 05 - Gerenciando a DB ( 02 - Importando uma Database)
+
+Primeiramente nós precisamos fazer o download do nosso banco de dados sakila, para isso vamos entrar no google e
+pesquisar pelo banco de dados do sakila, vamos selecionar a opção zip e vamos fazer o download, depois do 
+download extraimos os arquivos do zip e a partir desse momento continuamos usando o  nosso workbench onde 
+vamos selecionar os arquivo para abrir, então primeiramente selecionamos o arquivo de schemas e depois o arquivo de dados.
+Sempre lembrando que vamos abrir o arquivo e precisamos executar o query dele para que funcione.
