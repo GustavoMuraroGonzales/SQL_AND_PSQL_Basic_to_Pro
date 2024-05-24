@@ -1,0 +1,27 @@
+Aula 02 JOIN ( 03 - Adicionando um ALIAS )
+
+O ALIAS serve para darmos um apelido a uma tabela, como no caso do JOIN que precisamos digitar várias 
+vezes o nome da tabela para chamarmos ela, o ALIAS nos ajuda para que possamos deixar o nosso código menor.
+Mas sempre que usamos desse tributo ele deve sempre ser usado no mesmo código, sempre que formos chamar a tabela
+devemos colocar o apelido, caso contrário pode dar erro.
+Podemos ver no exemplo:
+
+		USE sakila;
+
+		SELECT 	
+			cus.customer_id, 
+			cus.first_name,
+			cus.last_name,
+			pay.rental_id,
+			pay.amount 
+		FROM customer cus
+		JOIN payment pay
+		ON cus.customer_id = pay.payment_id
+
+No exemplo acima nos usamos o ALIAS para criar 
+um apelido para as nossas tabelas para que assim 
+quando chamarmos ela, precisamos somente colocar esse 
+apelido, deixando o nosso código mais clean e menor.
+Para usarmos colocamos o apelido na frente da primeira 
+chamada da tabela, como no exemplo no FROM e JOIN.
+

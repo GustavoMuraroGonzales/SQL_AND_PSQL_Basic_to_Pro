@@ -1,0 +1,7 @@
+Aula 05 - Gerenciando a DB ( 01 - Realizando o DROP da database)
+
+
+Para realizar o DROP do nosso database utilizamos o mesmo sistema de excluir uma tabela, nós precisamos clicar
+com o botão direito do mouse em cima do nosso schema da database que queremos excluir e depois clicamos em DROP.
+
+Lembrando que quando usamos essa função, nossa database é excluida permanentemente

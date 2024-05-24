@@ -1,0 +1,5 @@
+ Aula 08 - Funções Essenciais ( 01 - Funções com Strings)
+ 
+ Nós tems muitas funções que nos ajudam a formatar as strings em nosso banco de dados, nós podemos localizalas 
+ no site do mysql usando o link: https://dev.mysql.com/doc/refman/8.0/en/string-functions.html ou pesquisando 
+ na tab de pesquiso por 'mysql string functios'.

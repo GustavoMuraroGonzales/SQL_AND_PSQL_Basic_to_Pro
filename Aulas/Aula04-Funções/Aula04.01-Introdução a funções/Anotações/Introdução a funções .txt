@@ -1,0 +1,5 @@
+Aula 04 - Funções ( 01 - Introdução a Funções) 
+
+
+São nada mais e nada menos que códigos pré feitos que ajudam na manipulação dos dados.
+

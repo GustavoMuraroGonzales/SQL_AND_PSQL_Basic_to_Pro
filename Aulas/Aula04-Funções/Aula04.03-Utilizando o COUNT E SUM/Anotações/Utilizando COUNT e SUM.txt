@@ -1,0 +1,30 @@
+Aula 04 - Funções ( 03 - Utilizando COUNT e SUM) 
+
+Na função SUM ele faz a soma do inten selecionado que no exemplo abaixo foi o amount 
+Na função COUNT ele conta quantas vendas foram realizadas e para diversificar os exemplo vamos mostrar
+como se fossem comparando os dois vendedores
+
+Funcionário 1:
+
+		SELECT 
+			MAX(amount) AS Maior,
+			MIN(amount) AS Menor,
+			AVG(amount) AS 'Media do Valores',
+			SUM(amount) AS 'Total de Vendas',
+			COUNT(amount) AS 'Número de Venda'
+		FROM payment 
+		WHERE staff_id = 1
+		
+-------------------------------
+
+Funcionário 2:
+
+		SELECT 
+			MAX(amount) AS Maior,
+			MIN(amount) AS Menor,
+			AVG(amount) AS 'Media do Valores',
+			SUM(amount) AS 'Total de Vendas',
+			COUNT(amount) AS 'Número de Venda'
+		FROM payment 
+		WHERE staff_id = 2
+		

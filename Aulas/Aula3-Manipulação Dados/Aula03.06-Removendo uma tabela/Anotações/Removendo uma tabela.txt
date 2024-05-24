@@ -1,0 +1,5 @@
+Aula 03 - Manipulação de Dados ( 06 - Removendo uma tabela)
+
+Para fazer a remoção de uma tabela nós clicamos com o botão direito do muouse na tabela que queremos remover 
+e escolhemos entre as duas opções TRUNCATE TABLE E DROP TABLE sendo assim a Truncate limpando todos os dados da
+tabela mas sem excluir ela e o drop exluindo a tabela e todos os dados 
