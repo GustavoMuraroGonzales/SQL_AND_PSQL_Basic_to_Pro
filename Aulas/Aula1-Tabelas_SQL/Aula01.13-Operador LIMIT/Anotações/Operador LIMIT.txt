@@ -1,0 +1,8 @@
+Aula 01 Introdução a SQL( 13 - Operador LIMIT )
+
+LIMIT é quando queremos limitar a quantidade de rows em nossa tabela, o código funciona da seguinte maneira
+		SELECT * FROM actor
+		LIMIT (quantidade que vai pular), (Quantas rows quer mostrar).
+		
+Em nossa pasta de script podemos encontra o código que demonstra esse operador na prática
+
