@@ -1,0 +1,15 @@
+Aula 10 Usuários ( 06 - Aplicando privilégios a usuários)
+
+Quando criamos um usuário ele não pode executar nada em nosso banco de dados, para que ele possa 
+executar qualquer coisa precisamos dar a ele as permissões necessárias.
+
+		SHOW GRANTS FOR ana - Usamos esse código para ver as permissões de tal usuário.
+		
+-----------------------------
+
+		GRANT SELECT, INSERT, UPDATE, DELETE 
+		ON sakila.* 
+		TO ana;
+
+
+Nesse caso acima, nós demos os seguinte privilégios a ana na DB sakila: SELECT, INSERT, UPDATE, DELETE.

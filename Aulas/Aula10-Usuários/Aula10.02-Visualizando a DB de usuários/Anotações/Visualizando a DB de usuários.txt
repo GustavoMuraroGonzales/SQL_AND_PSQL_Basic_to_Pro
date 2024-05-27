@@ -1,0 +1,4 @@
+Aula 10 DB ( 02 - Visualizando a DB de usuários) 
+
+Cada DB podem ser acessados tanto remotamente por outras estações de trabalho como podem ser acessados 
+localmente direto. 

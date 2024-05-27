@@ -1,0 +1,8 @@
+Aula 10 Usuários ( 08 - Removendo privilégios)
+
+Utilizamos o seguinte código para remover privilégios de algum usuário:
+
+		REVOKE UPDATE 
+		ON sakila.*
+		FROM ana
+		

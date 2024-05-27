@@ -1,0 +1,34 @@
+Aula 09 DB ( 07 - Inserindo Dados em uma tabela)
+
+Inserimos dados em uma tabela usando o seguinte código:
+
+		USE carros;
+
+		INSERT INTO clientes (nome, sobrenome, endereço)
+		VALUES ('Isis', 'Gonzales', 'Rua 45, 350');
+		
+------------------------------------------------------------------------
+Inserindo dados na tabela de marcas
+		
+
+		USE carros;
+
+		INSERT INTO marcas (nome_marca)
+		VALUES ('Mercedes-Benz');
+		
+------------------------------------------------------------------------
+Inserindo dados na tabela de inventario 
+
+		USE carros;
+
+		INSERT INTO inventario (modelo, transmissao, motor, combustivel, marcas_id)
+		VALUES 
+			('KA', 'Manual', 1.0, 'Flex', 13),
+			('HB20', 'Manual', '1.0', 'Flex', 5),
+			('HB20s', 'Automatico', '1.6', 'Flex', 5),
+			('C3', 'Automatico', '1.5', 'Flex', 1),
+			('F250', 'Automatico', '3.0', 'Diesel', 13),
+			('Dolphin', 'Automatico', 'Eletric', 'Eletrico', 3),
+			('Corolla', 'Automatico', '1.5 turbo', 'Hibrido', 4)
+    
+ 

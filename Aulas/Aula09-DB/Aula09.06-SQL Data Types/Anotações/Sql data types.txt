@@ -1,0 +1,12 @@
+Aula 09 DB ( 06 - SQL Data Types)
+
+
+Nós temos muitos tipos de Data types os mais usados são:
+VARCHAR()
+INT
+DATE
+
+Mas nós podemos encontrar mais seguindo o seguinte link:
+	https://www.w3schools.com/sql/sql_datatypes.asp
+	
+ou pesquisando no google SQL Data Types.
