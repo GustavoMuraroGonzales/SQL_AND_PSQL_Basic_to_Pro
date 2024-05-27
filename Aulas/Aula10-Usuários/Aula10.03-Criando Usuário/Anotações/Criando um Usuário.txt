@@ -1,0 +1,11 @@
+Aula 10 Usuários ( 03 - Criando um usuário) 
+
+Nós utilizamos o seguinte código para criarmos um usário em nosso banco de dados:
+
+		CREATE USER ana IDENTIFIED BY '2020';
+		CREATE USER joão@localhost IDENTIFIED BY '2010';
+
+
+		SELECT * FROM mysql.user
+
+

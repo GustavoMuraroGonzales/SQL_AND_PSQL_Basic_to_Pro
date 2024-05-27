@@ -1,0 +1,5 @@
+CREATE USER ana IDENTIFIED BY '2020';
+CREATE USER joão@localhost IDENTIFIED BY '2010';
+
+
+SELECT * FROM mysql.user

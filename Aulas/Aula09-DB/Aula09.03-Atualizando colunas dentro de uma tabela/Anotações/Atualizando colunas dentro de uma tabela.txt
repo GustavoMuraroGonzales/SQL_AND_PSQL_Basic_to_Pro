@@ -1,0 +1,10 @@
+Aula 09 DB ( 03 - Atualizando Colunas dentro de uma tabela)
+
+Quando queremos atualizar uma tabela não adicionamos somente a alteração que queremos fazer em 
+nosso código do create e executamos, nós precisamos usar o seguinte código:
+
+		USE carros;
+
+		ALTER TABLE marcas ADD origem VARCHAR(255)
+
+No código acima nós adicionamos um novo header a nossa tabela.

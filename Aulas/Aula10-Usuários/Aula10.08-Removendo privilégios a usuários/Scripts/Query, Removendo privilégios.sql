@@ -1,0 +1,3 @@
+REVOKE UPDATE 
+ON sakila.*
+FROM ana
