@@ -1,0 +1,15 @@
+Aula 09 DB ( 05 - Criando tabela de clientes) 
+
+Utilizamos o seguinte código para a criação da tabela de clientes:
+
+		USE carros;
+
+		CREATE TABLE clientes (
+			id INT NOT NULL AUTO_INCREMENT,
+			nome VARCHAR(255) NOT NULL,
+			sobrenome VARCHAR(255) NOT NULL,
+			endereço VARCHAR(255) NOT NULL,
+			PRIMARY KEY (id)
+		);
+
+

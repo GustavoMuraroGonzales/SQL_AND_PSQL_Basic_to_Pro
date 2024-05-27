@@ -1,0 +1,12 @@
+Aula 09 DB ( 01 - Criando uma DataBase) 
+
+Primeiro passa é criar uma DataBase, utilizaos o código a seguir:
+
+		CREATE DATABASE carros;
+		
+Caso você erre na criação de sua DB e quer excluir ela use o código 
+
+		DROP DATABASE (nomedaDB); 
+
+Mas tome muito cuidado com o código por que ele não aparece uma janela de confitmação, assim 
+que você executar o código ele vai deletar.

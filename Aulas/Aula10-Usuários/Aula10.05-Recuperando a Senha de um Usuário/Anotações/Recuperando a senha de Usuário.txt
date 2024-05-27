@@ -1,0 +1,15 @@
+Aula 10 Usuários ( 05 - Recuperando a senha de um usuário)
+
+Para alterarmos uma senha pelo POPSQL usamos o seguinte código:
+
+		SET PASSWORD FOR ana = '0710';
+
+		SELECT * FROM mysql.user
+		
+-------------------------------------------------------------
+
+Para alterarmos uma senha pelo Workbench utilizamos os seguintes passos:
+-Entramos na parte de administração (Anexo1);
+-Entramos na parte de Users and Privileges (Anexo2);
+-Selecionamos o usuário que queremos alterar a senha;
+-Depois trocamos a senha e confirmamos ela e depois confirma

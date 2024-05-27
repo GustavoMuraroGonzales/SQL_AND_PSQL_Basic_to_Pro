@@ -1,0 +1,7 @@
+Aula 10 Usuários ( 04 - Removendo Usuários)
+
+Para fazer a remoção de um usuário nós utilizamos o seguinte código:
+
+DROP USER joão@localhost;
+
+SELECT * FROM mysql.user

@@ -1,0 +1,5 @@
+Aula 10 DB ( 01 - Iniciando com segurança)
+
+Em todo o conteudo de estudo, estavamos utilizando o usuário root, que não é recomendável a ser usado em um 
+ambiente de desenvolvimento somente em extrema necessidade. Devemos criar e configurar cada usuário e
+seus privilégios que podem ser utilizados em nosso DB.
